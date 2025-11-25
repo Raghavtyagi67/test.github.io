@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Library - Free Public Domain Books</title>
+    <meta name="description" content="A free, public-domain online library featuring hundreds of classic books from Project Gutenberg.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <h1>Open Library</h1>
+            <p class="subtitle">Free Public Domain Classics • Powered by Project Gutenberg</p>
+        </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#" data-genre="all" class="active">All Books</a></li>
+                <li><a href="#" data-genre="classics">Classics</a></li>
+                <li><a href="#" data-genre="fiction">Fiction</a></li>
+                <li><a href="#" data-genre="mystery">Mystery</a></li>
+                <li><a href="#" data-genre="sci-fi">Science Fiction</a></li>
+                <li><a href="#" data-genre="fantasy">Fantasy</a></li>
+                <li><a href="#" data-genre="philosophy">Philosophy</a></li>
+                <li><a href="#" data-genre="history">History</a></li>
+                <li><a href="#" data-genre="adventure">Adventure</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- SEARCH BAR -->
+    <div class="container search-container">
+        <input type="text" id="searchInput" placeholder="Search by title or author..." class="search-bar">
+    </div>
+
+    <!-- MAIN BOOK GRID -->
+    <main class="container">
+        <div id="bookGrid" class="book-grid">
+            <!-- Books will be injected here by JavaScript -->
+        </div>
+    </main>
+
+    <!-- FEEDBACK SECTION -->
+    <section class="feedback-section">
+        <div class="container">
+            <h2>Feedback & Contact</h2>
+            <p>Have suggestions or found an issue?</p>
+            <p>
+                <a href="mailto:428380@aaps.k12.mi.us" class="btn">Click here to email feedback</a>
+            </p>
+            <p>
+                <a href="tel:734-352-0980" class="btn">Click here to text feedback → 734-352-0980</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>Open Library • All books are in the public domain and sourced from <a href="https://www.gutenberg.org" target="_blank">Project Gutenberg</a></p>
+            <p>Built as an educational project • No copyrighted material included</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
